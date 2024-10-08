@@ -1,6 +1,7 @@
 package com.esdrasdev.cadastro_usuarios.business;
 
 import com.esdrasdev.cadastro_usuarios.infrastructure.entities.UsuarioEntity;
+import com.esdrasdev.cadastro_usuarios.infrastructure.exceptions.BusinessException;
 import com.esdrasdev.cadastro_usuarios.infrastructure.repository.UsuarioRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
