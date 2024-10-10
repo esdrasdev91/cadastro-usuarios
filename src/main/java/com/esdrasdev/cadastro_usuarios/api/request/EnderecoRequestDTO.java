@@ -1,24 +1,24 @@
 package com.esdrasdev.cadastro_usuarios.api.request;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.*;
 
 @Getter
 @Setter
-@AllArgsConstructor
 @NoArgsConstructor
+@AllArgsConstructor
 @Builder
 @EqualsAndHashCode
-public class UsuarioRequestDTO {
+public class EnderecoRequestDTO {
 
-    private String nome;
+    private String rua;
 
-    @JsonProperty(required = true)
-    private String email;
+    private Long numero;
 
-    private String documento;
+    private String bairro;
 
-    private EnderecoRequestDTO endereco;
+    private String complemento;
 
+    private String cidade;
 
+    private String cep;
 }
