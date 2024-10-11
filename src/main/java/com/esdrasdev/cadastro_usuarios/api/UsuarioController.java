@@ -1,6 +1,7 @@
 package com.esdrasdev.cadastro_usuarios.api;
 
 import com.esdrasdev.cadastro_usuarios.api.request.UsuarioRequestDTO;
+import com.esdrasdev.cadastro_usuarios.api.response.UsuarioResponseDTO;
 import com.esdrasdev.cadastro_usuarios.business.UsuarioService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
