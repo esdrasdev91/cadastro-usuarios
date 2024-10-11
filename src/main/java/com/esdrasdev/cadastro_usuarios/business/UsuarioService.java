@@ -1,5 +1,7 @@
 package com.esdrasdev.cadastro_usuarios.business;
 
+import com.esdrasdev.cadastro_usuarios.api.request.UsuarioRequestDTO;
+import com.esdrasdev.cadastro_usuarios.api.response.UsuarioResponseDTO;
 import com.esdrasdev.cadastro_usuarios.infrastructure.entities.UsuarioEntity;
 import com.esdrasdev.cadastro_usuarios.infrastructure.exceptions.BusinessException;
 import com.esdrasdev.cadastro_usuarios.infrastructure.repository.UsuarioRepository;
@@ -8,6 +10,8 @@ import org.springframework.stereotype.Service;
 
 import java.util.Collections;
 import java.util.List;
+
+import static org.springframework.util.Assert.notNull;
 
 @Service
 @RequiredArgsConstructor
